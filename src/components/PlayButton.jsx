@@ -1,0 +1,14 @@
+import React from 'react'
+
+const PlayButton = (props) => {
+  return (
+    <div {...props} className='cursor-pointer'>
+        <svg width="61" height="61" viewBox="0 0 61 61" fill="none" xmlns="http://www.w3.org/2000/svg"
+        >
+        <path d="M19.709 30.0312V14.8762L32.834 22.4537L45.959 30.0312L32.834 37.6087L19.709 45.1862V30.0312Z" stroke="#73FAC6" stroke-width="4" stroke-linejoin="round"/>
+        </svg>
+    </div>
+  )
+}
+
+export default PlayButton
