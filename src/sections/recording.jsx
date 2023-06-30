@@ -1,7 +1,5 @@
-import React, { useRef, useState , useEffect} from 'react';
+import React, { useRef, useState } from 'react';
 import video from '../assets/video.mov'
-import PlayButton from '../components/PlayButton';
-import PauseButton from '../components/PauseButton';
 import Unmuted from '../components/Unmuted';
 import Muted from '../components/Muted';
 

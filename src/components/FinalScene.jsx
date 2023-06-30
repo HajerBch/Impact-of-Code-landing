@@ -5,7 +5,7 @@ import layer2 from '../assets/layer2.png'
 import man from '../assets/man.svg'
 import moon from '../assets/moon.svg'
 import grass from '../assets/grass.svg'
-import { Parallax, useParallax } from 'react-scroll-parallax'
+import {  useParallax } from 'react-scroll-parallax'
 
 const FinalScene = () => {
     const treesParallax = useParallax({

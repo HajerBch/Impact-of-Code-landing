@@ -41,7 +41,7 @@ import Menu from '../components/Menu'
        {
         links.map((item)=>
         (
-        <a href={item.link} target='_blank'>
+        <a href={item.link} target='_blank' rel="noreferrer">
         <img src={item.icon} alt="icon-link" />
         </a>
         )
