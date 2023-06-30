@@ -10,7 +10,6 @@ import Footer from './sections/footer';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
-  const helmetContext = {};
   return (
     <ParallaxProvider>
       <div className="App bg-black overflow-x-hidden">
