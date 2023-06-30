@@ -2,7 +2,7 @@ import React from 'react'
 
 const hero = () => {
   return (
-    <section className={`w-full flex flex-col justify-start items-center px-6 md:px-64 pt-40 pb-[640px] gap-6 `} id='heroSection'>
+    <section className={`w-full flex flex-col justify-start items-center px-6 md:px-64 pt-32 sm:pt-40 pb-[640px] gap-6 `} id='heroSection'>
     <p className='text-iocPurpilLight text-xl mono'>IMPACT OF CODE</p>
     <h1 className='hacked heading leading-[64px] md:leading-[106px] text-6xl md:text-9xl  text-white text-center'>Save the world from Apocalypse</h1>
     <p className='mono text-3xl md:text-4xl text-iocGreen whitespace-nowrap'>16TH AUGUST 2023</p>

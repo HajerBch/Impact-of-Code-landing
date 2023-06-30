@@ -28,13 +28,13 @@ import Menu from '../components/Menu'
     }
 ]
    return (
-     <section className='flex flex-col md:flex-row px-6 md:px-24 py-32 items-center gap-12 md:justify-between'>
-     <div className='flex flex-col gap-6 justify-start items-start'>
+     <section className='flex flex-col md:flex-row px-6 md:px-24 py-16 sm:py-32 items-center gap-12 md:justify-between'>
+     <div className='flex flex-col gap-4 sm:gap-6 justify-start items-start'>
         <div className='flex items-center gap-6'>
-            <p className='roboto text-2xl font-normal text-white uppercase'>Powered by</p>
-            <img src={mcLogo} alt='logo' className='h-16 w-24'/>
+            <p className='roboto text-lg sm:text-2xl font-normal text-white uppercase'>Powered by</p>
+            <img src={mcLogo} alt='logo' className=' w-14 sm:w-24'/>
         </div>
-        <p className='roboto text-xl font-normal text-gray-300 max-w-xl'>
+        <p className='roboto text-md sm:text-xl font-normal text-gray-300 max-w-xl'>
        <span className='text-white text-semibold'> Micro Club </span>is the first founded scientific club in Algeria, back in March 5th, 1985. We focus on Computer Science and IT field as we work to popularize among the student community.
         </p>
         <div className='flex gap-6 items-center'>
@@ -42,7 +42,7 @@ import Menu from '../components/Menu'
         links.map((item)=>
         (
         <a href={item.link} target='_blank' rel="noreferrer">
-        <img src={item.icon} alt="icon-link" />
+        <img src={item.icon} alt="icon-link" className='w-6 sm:w-8' />
         </a>
         )
         )

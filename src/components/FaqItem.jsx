@@ -18,7 +18,7 @@ const [isOpen, setIsOpen] = useState(false);
     transition={slideRightWithFade.transition}
     >
         <img  src={faqIcon} alt='faq icon' className={ (isOpen ? 'rotate-90' : '')}  />
-        <p className="roboto text-xl md:text-2xl font-semibold text-white uppercase">{question}</p>
+        <p className="roboto text-lg sm:text-xl md:text-2xl font-semibold text-white uppercase">{question}</p>
     </motion.div>
     <AnimatePresence initial={false}>
         {isOpen && (
@@ -33,7 +33,7 @@ const [isOpen, setIsOpen] = useState(false);
             }}
             transition={{ duration: 0.2, ease: 'easeInOut' }}
           >
-            <p className="text-gray-300 text-xl  roboto">{answer}</p>
+            <p className="text-gray-300 text-md sm:text-xl  roboto">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>

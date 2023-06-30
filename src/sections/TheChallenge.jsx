@@ -49,10 +49,10 @@ const TheChallenge = () => {
         <p className='whitespace-nowrap'>14 CHALLENGES,</p>
         <p className='whitespace-nowrap'>ONE HERO,</p>
         <div className='w-min'>
-        <p className='w-min whitespace-nowrap text-iocGreen animate-typing animate-cursor overflow-hidden border-iocGreen border-r-2 text-[7rem] sm:text-[9.4rem] '>YOU !</p>
+        <p className='w-min whitespace-nowrap text-iocGreen animate-typing animate-cursor overflow-hidden border-iocGreen border-r-2 text-[6rem] sm:text-[9.4rem] '>YOU !</p>
         </div>
       </div>
-      <div className='flex flex-col gap-6 flex-1 text-white roboto text-xl sm:text-2xl'>
+      <div className='flex flex-col gap-6 flex-1 text-white roboto text-md sm:text-2xl'>
       <motion.div
         className='w-full relative p-4 sm:p-9 h-min overflow-hidden'
         variants={frameOpen}
