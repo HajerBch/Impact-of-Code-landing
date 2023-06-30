@@ -1,5 +1,5 @@
 import React from 'react';
-import { HelmetProvider } from 'react-helmet-async';
+import { Helmet, HelmetProvider } from 'react-helmet-async';
 import Navbar from './components/Navbar';
 import Hero from './sections/hero';
 import TheEvent from './sections/theEvent';
@@ -11,6 +11,7 @@ import Footer from './sections/footer';
 import { ParallaxProvider } from 'react-scroll-parallax';
 
 function App() {
+  const helmetContext = {};
   return (
     <ParallaxProvider>
     <HelmetProvider context={helmetContext}>
